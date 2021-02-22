@@ -14,7 +14,7 @@ namespace SimpleAPI.Test
         public void GetReturnsMyName()
         {
             var returnValue = controller.Get(1);
-            Assert.Equal("Les Jackson", returnValue.Value);
+            Assert.Equal("Rune Brekke", returnValue.Value);
         }
 
         [Fact]
